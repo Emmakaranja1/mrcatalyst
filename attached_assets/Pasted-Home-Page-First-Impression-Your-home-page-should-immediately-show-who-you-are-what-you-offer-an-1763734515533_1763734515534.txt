@@ -1,0 +1,144 @@
+Home Page (First Impression)
+
+Your home page should immediately show who you are, what you offer, and why clients should trust you.
+Include:
+	•	Logo + tagline (e.g., “Protecting Your Tomorrow, Today”)
+	•	Clear headline – e.g. “Affordable, Reliable Insurance Solutions for Families and Businesses in Kenya”
+	•	Call to Action (CTA): “Get a Quote”, “Talk to an Agent”, “Learn More”
+	•	Quick overview of your services (Life | Education | Health | Motor | Investment | Retirement |general insurance|Unit trusts)
+	•	Short trust statement: “Licensed by IRA Kenya | Partnered with top insurers like Old Mutual, ICEA Lion, Absa life”
+	•	Hero photo or video: happy family, secure business, or a local community theme
+
+⸻
+
+👥 2. About Us Page
+
+Build credibility by showing personality and expertise.
+Include:
+	•	Your agency story – why you started, your mission and valuesMr. Catalyst Insurance Agency
+Our Story
+
+Mr. Catalyst Insurance Agency was born from a simple but powerful belief — that insurance should empower people, not overwhelm them. Founded by professionals who saw how confusing and impersonal the insurance world had become, Mr. Catalyst set out to change that.
+
+Our founder started the agency after witnessing too many families and businesses struggle with coverage gaps, unclear policies, and a lack of genuine support when it mattered most. The vision was to become the catalyst that helps individuals, families, and businesses move from uncertainty to confidence — knowing their future is protected.
+
+From our first client to every partnership today, we’ve remained committed to making insurance straightforward, trustworthy, and truly customer-centered.
+
+Our Mission
+
+To be the catalyst that transforms the insurance experience — helping our clients protect what matters most through clarity, compassion, and customized coverage.
+We don’t just sell policies; we build protection plans that empower people to move forward with confidence and peace of mind.
+
+Our Values
+
+1. Integrity
+We believe in honesty, transparency, and doing the right thing — even when no one is watching. Trust is the foundation of every relationship we build.
+
+2. Service First
+Our clients are at the heart of everything we do. We listen, educate, and advocate to ensure every decision puts your best interest first.
+
+3. Innovation
+As “Mr. Catalyst,” we embrace change and look for smarter, simpler, and more effective ways to protect our clients in an ever-changing world.
+
+4. Community
+We’re more than an agency — we’re part of the community we serve. Giving back and helping others thrive is part of our DNA.
+
+5. Reliability
+You can count on us — not just when times are good, but especially when life throws a curveball. We’re here for you, every step of the way
+	•	Team profiles with friendly photos and brief bios
+	•	Your credentials: licenses, partnerships, certifications
+	•	Customer-first philosophy: how you help clients make informed decisions
+	•	Contct details and office location 0725928653 location upperhill bishop garden tower
+
+⸻
+
+🛡️ 3. Insurance Products / Services
+
+Clearly explain each category you sell, in plain language. Use short sections with icons or visuals.
+Example categories:
+	•	Life Insurance and unit trusts
+	•	Education Plans
+	•	Health/Medical Cover                                                                   
+	•	Motor Insurance
+	•	Investment & Savings Plans
+	•	Pension/Retirement Plans
+	•	Business/Property Cover
+
+Each section should include:
+	•	What it covers
+	•	Who it’s best for
+	•	Key benefits
+	•	Option to get a quote or talk to an advisor
+
+💡 Tip: Include relatable examples or short client stories like:
+
+“When Jane’s son joined high school, her education policy covered all fees with zero stress.”
+
+⸻
+
+💬 4. Testimonials / Client Reviews
+
+Social proof builds trust.
+	•	Use real names or initials, and a short quote (with permission).
+	•	Include star ratings or short video testimonials if possible.
+
+“I claimed my medical bill through Amos Insurance — they handled everything in 2 days!” ⭐⭐⭐⭐⭐
+
+⸻
+
+📈 5. Financial Education / Blog Section
+
+Show expertise and attract organic traffic via Google.
+Post articles like:
+	•	“Why Every Parent Needs an Education Plan”
+	•	“How to Start a Money Market Investment in Kenya”
+	•	“5 Tips to Lower Your Car Insurance Costs”
+Add a newsletter sign-up: “Get monthly money & insurance tips straight to your inbox.”
+
+⸻
+
+📞 6. Contact & Support Page
+
+Make it super easy to reach you:
+	•	Phone (with WhatsApp button)
+	•	Email
+	•	Physical office + map
+	•	Business hours
+	•	Contact form (“Request a Quote”)
+	•	Social media links (Facebook, Instagram, LinkedIn, TikTok)
+
+💡 Bonus: Add a chatbot or WhatsApp API link – this boosts engagement dramatically.
+
+⸻
+
+💰 7. Quote / Consultation Request Page
+
+Convert interest into leads.
+Include:
+	•	Simple form with name, phone, email, type of cover, and preferred contact time.
+	•	Short message like:
+“Let’s help you find the best cover within your budget — no obligation.”
+
+⸻
+
+🤝 8. Partner Logos & Credentials
+
+Display logos of insurers you represent (e.g., Old Mutual, ICEA Lion and absa life).
+Also show:
+	•	IRA License number
+	•	Professional affiliations (e.g. AIIK, AKI membership)
+
+⸻
+
+🔒 9. Trust & Credibility Signals
+	•	Data protection/privacy policy
+	•	Secure “https://” domain
+	•	Optional awards, media features, or community involvement
+
+⸻
+
+🧭 10. Extra Features (to stand out)
+	•	Premium calculator (simple estimate tool)
+	•	Downloadable guides (“10 Smart Ways to Save for Education”)
+	•	Short explainer videos
+	•	Success stories or case studies.  I want to create the website using next js, Tailwind css and typescript explain why an how to go about step by step 
