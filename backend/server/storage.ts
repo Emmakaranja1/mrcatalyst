@@ -1,11 +1,11 @@
-import { 
-  type QuoteRequest, 
+import {
+  type QuoteRequest,
   type InsertQuoteRequest,
   type ContactForm,
   type InsertContactForm,
   type NewsletterSubscription,
   type InsertNewsletterSubscription
-} from "@shared/schema";
+} from "../shared/schema";
 import { randomUUID } from "crypto";
 
 export interface IStorage {

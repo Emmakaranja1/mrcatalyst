@@ -1,11 +1,11 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { 
+import {
   insertQuoteRequestSchema,
   insertContactFormSchema,
   insertNewsletterSubscriptionSchema
-} from "@shared/schema";
+} from "../shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Quote Request Endpoint
@@ -13,7 +13,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertQuoteRequestSchema.parse(req.body);
       const quoteRequest = await storage.createQuoteRequest(validatedData);
-      
+
       res.status(201).json({
         success: true,
         data: quoteRequest,
@@ -47,7 +47,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertContactFormSchema.parse(req.body);
       const contactForm = await storage.createContactForm(validatedData);
-      
+
       res.status(201).json({
         success: true,
         data: contactForm,
@@ -80,7 +80,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/newsletter", async (req, res) => {
     try {
       const validatedData = insertNewsletterSubscriptionSchema.parse(req.body);
-      
+
       // Check if email already subscribed
       const isSubscribed = await storage.isEmailSubscribed(validatedData.email);
       if (isSubscribed) {
@@ -91,7 +91,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       const subscription = await storage.createNewsletterSubscription(validatedData);
-      
+
       res.status(201).json({
         success: true,
         data: subscription,
