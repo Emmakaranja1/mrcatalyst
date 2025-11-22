@@ -12,7 +12,9 @@
     "dependencies": {
         "express": "^4.21.2",
         "cors": "^2.8.5",
-        "esbuild": "^0.25.0"
+        "esbuild": "^0.25.0",
+        "drizzle-orm": "^0.39.1",
+        "drizzle-zod": "^0.7.0"
     },
     "devDependencies": {
         "tsx": "^4.20.5"
