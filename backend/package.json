@@ -1,0 +1,20 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "server/index-prod.ts",
+    "type": "module",
+    "scripts": {
+        "start": "NODE_ENV=production node dist/index.js",
+        "dev": "NODE_ENV=development tsx server/index-dev.ts",
+        "build": "esbuild server/index-prod.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/index.js",
+        "db:push": "drizzle-kit push"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {
+        "esbuild": "^0.25.0",
+        "tsx": "^4.20.5"
+    }
+}

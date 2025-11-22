@@ -7,6 +7,8 @@ import express, {
   NextFunction,
 } from "express";
 
+
+import cors from "cors";
 import { registerRoutes } from "./routes";
 
 export function log(message: string, source = "express") {
@@ -20,7 +22,10 @@ export function log(message: string, source = "express") {
   console.log(`${formattedTime} [${source}] ${message}`);
 }
 
-export const app = express();
+
+// Enable CORS for all origins or restrict via env var
+const allowed = process.env.ALLOWED_ORIGIN || "*";
+app.use(cors({ origin: allowed }));
 
 declare module 'http' {
   interface IncomingMessage {
@@ -33,6 +38,11 @@ app.use(express.json({
   }
 }));
 app.use(express.urlencoded({ extended: false }));
+
+// Root test route for Render health check
+app.get("/", (_req, res) => {
+  res.status(200).send("API running");
+});
 
 app.use((req, res, next) => {
   const start = Date.now();
